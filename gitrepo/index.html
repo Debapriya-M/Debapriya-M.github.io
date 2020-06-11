@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Welcome to my Website</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3" id="nav-menu">
+                <!-- insert left div options here -->
+                <div class="image-container">
+                    <img src="img/portrait1.jpg" alt="Debapriya Mukherjee" class="bio-image">
+                </div>
+                <div class="img-desc">
+                    MS CS Graduate Student,
+                    <br> Stony Brook University
+                </div>
+                <div class="nav-options">
+                    <p><a id="home-link" class="active" data-nav-section="home">HOME</a></p>
+                    <p><a id="about-link" data-nav-section="about">ABOUT</p>
+                    <p><a id="skills-link" data-nav-section="skills">SKILLS</p>
+                    <p><a id="education-link" data-nav-section="education">EDUCATION</p>
+                    <p><a id="experience-link" data-nav-section="experience">EXPERIENCE</p>
+                    <p><a id="portfolio-link" data-nav-section="portfolio">PORTFOLIO</p>
+                    <p><a id="contact-link" data-nav-section="contact">CONTACT</a></p>
+                </div>
+                <div class="icons">
+                    <a href="mailto:debapriya.mukherjee@stonybrook.edu" target="_blank" style="padding: 3px;">
+                        <i class="fa fa-envelope fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/debapriya.mukherjee.9/" target="_blank" style="padding: 3px;">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/debapriya-mukherjee-16b99a79/" target="_blank" style="padding: 3px;">
+                        <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/Debapriya-M" target="_blank" style="padding: 3px;">
+                        <i class="fa fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/debapriya_mukherjee/" target="_blank" style="padding: 3px;">
+                        <i class="fa fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+                <div class="copyright-info" style="font-size: small; text-align: center; padding: 20px;">
+                    Copyright &copy; Debapriya Mukherjee, 2020
+                </div> 
+            </div>
+            <div class="col-sm-9" style="background-color:#f6eaf0;">
+                <div class="main-body">
+                    <div id="home-div"> 
+                        <section id="home-info" data-section="home">
+                            <div class="home-content">
+                                <h1 style="margin-top: 150px;">Hi!</h1>
+                                <h1>I am Debapriya</h1>
+                                <h4> Web Developer and Programmer, Software Engineer and Data science enthusiast </h4>
+                                <h4>December 2020 Graduation</h4>
+                                <h4>Seeking Full-Time Software Development Engineering Opportunities starting January 2021</h4>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="about-div" class="displaySection">
+                        <section class="about-info" data-section="about">
+                            <div class="about-content" style="margin-top: 5cm;">
+                                <div>
+                                    <h6>WHO AM I</h6>
+                                    <h5>ABOUT ME</h5>
+                                    <p>I am currently pursuing Masters of Science in Computer Science at State Univeristy of New York at Stony Brook. </p> 
+                                    <p style="text-align: justify;">I love to find innovative solutions to real world problems. Before pursuing my masters degree, I worked with Tata Consultancy Services for more than 3 years and gained industry experience by working on various development projects.</p> 
+                                    <p>I love to paint, listen to songs, read books and I am a Harry Potter fan.</p>
+                                    <p>I try to find happiness in the smallest acts.</p>
+                                    <!-- <p>Expertise: Data Structures and Algorithms, Supervised Learning, Problem solving and Web programming.</p> -->
+                                    <br>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <!-- <div class="columns contact-details" >
+                                        <p>Debapriya Mukherjee</p>
+                                        <p>debapriya.mukherjee@stonybrook.edu</p>
+                                    </div> -->
+                                    <div class="columns download" >
+                                        <p><button type="button" class="btn btn-secondary" style="margin: 20px 20px 20px 20px; background-color: #996666; "><a style="color: white;" href="document/resume.pdf" target="_blank"><i class="fa fa-download"></i>&nbsp;Download Resume</a></button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div id="skills-div" class="displaySection" style="margin-top: 5cm;">
+                        <section id="skills-info" data-section="skills">
+                            <div id="skills">
+                                <h6>MY SPECIALTY</h6>
+                                <h5>MY SKILLS</h5>
+                                <!-- <h2 class="text-secondary"><u>Skills</u></h2> -->
+                                <div class="bars">
+                                    <ul class="skills">
+                                        <!-- <div class="row">
+                                            <h4><strong>Languages:</strong></h4>
+                                            <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                                <div class="progress-wrap">
+                                                    <p>Java</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                                            <span>90%</span>
+                                                        </div>
+                                                    </div>
+                                                    <p>Python</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                                            <span>90%</span>
+                                                        </div>
+                                                    </div>
+                                                    <p>HTML</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                                            <span>90%</span>
+                                                        </div>
+                                                    </div>
+                                                    <p>CSS</p>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                                            <span>90%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="progress blue">
+                                                    <span class="progress-left">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <span class="progress-right">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <div class="progress-value">90%</div> 
+                                                </div>
+                                                <div style="margin-top: 10px; text-align: center;">Java</div>
+                                                <div style="margin-top: 10px; text-align: center; padding-bottom: 40px;"><h6 style="text-transform: lowercase;">3 years professional experience</h6></div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="progress blue">
+                                                    <span class="progress-left">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <span class="progress-right">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <div class="progress-value">90%</div>
+                                                </div>
+                                                <div style="margin-top: 10px; text-align: center;">Python</div>
+                                                <div style="margin-top: 10px; text-align: center; padding-bottom: 40px;"><h6 style="text-transform: lowercase;">3 years professional experience</h6></div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="progress pink">
+                                                    <span class="progress-left">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <span class="progress-right">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <div class="progress-value">75%</div>
+                                                </div>
+                                                <div style="margin-top: 10px; text-align: center;">Frameworks</div>
+                                                <div style="margin-top: 10px; text-align: center; padding-bottom: 40px ;"><h6 style="text-transform: capitalize;">Spring Boot, Microservices, Angular</h6></div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="progress pink">
+                                                    <span class="progress-left">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <span class="progress-right">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <div class="progress-value">75%</div>
+                                                </div>
+                                                <div style="margin-top: 10px; text-align: center;">Machine Learning</div>
+                                                <div style="margin-top: 10px; text-align: center; padding-bottom: 40px ;"><h6 style="text-transform: capitalize;">Scikit-learn, Pytorch, TensorFlow</h6></div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="progress green">
+                                                    <span class="progress-left">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <span class="progress-right">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <div class="progress-value">85%</div>
+                                                </div>
+                                                <div style="margin-top: 10px; text-align: center;">HTML5 / CSS3 / JAVASCRIPT / JQuery / BOOTSTRAP</div>
+                                                <div style="margin-top: 10px; text-align: center; padding-bottom: 40px ;"><h6 style="text-transform: capitalize;">Web Design Experience</h6></div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="progress green">
+                                                    <span class="progress-left">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <span class="progress-right">
+                                                        <span class="progress-bar"></span>
+                                                    </span>
+                                                    <div class="progress-value">85%</div>
+                                                </div>
+                                                <div style="margin-top: 10px; text-align: center;">SQL/ IBM DB2</div>
+                                                <div style="margin-top: 10px; text-align: center; padding-bottom: 40px ;"><h6 style="text-transform: lowercase;">3 years professional experience</h6></div>
+                                            </div>
+                                        </div>
+                                       
+                                        
+                                        <!-- <h4><strong>Languages:</strong></h4> <p> Java, Python, XQuery and XPath</p>
+                                        <h4><strong> Web Development:</strong></h4> <p>HTML, CSS, Angular, JavaScript</p>
+                                        <h4><strong>Technologies and Frameworks:</strong></h4> <p>Micro-services, Spring Framework/Spring Boot, JPA, REST, Web Services/API, Hadoop, Apache Spark, Tensorflow, D3.js, CSS, Tomcat, XML, JSON, SOAP, JIRA, Jenkins, JUnit</p>
+                                        <h4><strong>Databases:</strong></h4> <p> MS SQL Server, MySQL, IBM DB2</p>
+                                        <h4><strong>Operating Systems:</strong></h4> <p>Linux, Windows, MacOS</p>
+                                        <h4><strong>Tools:</strong></h4> <p> Selenium, Scrapy, Git</p>
+                                        <h4><strong>Platforms:</strong></h4> <p>Hortonworks Data Platform (HDP) Sandbox, Cloudera, VirtualBox, Oxygen XML Editor</p> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div id="education-div" class="displaySection">
+                        <section class="education-info" data-section="education">
+                            <div id="education">
+                                <h6>EDUCATION</h6>
+                                <h5>EDUCATION</h5>
+                                <div class="timeline">
+                                    <div class="container1 left">
+                                      <div class="content">
+                                        <h2>2020</h2>
+                                        <h3>State University of New York at Stony Brook</h3>
+                                        <p>Master of Science in Computer and Information Sciences <span>•</span> <em class="date">August 2019 - December 2020</em></p>
+                                        <p>GPA: 3.58 / 4</p>
+                                        <p class="sc-fzplWN hRBsWH">Graduate Teaching Assistant: CSE 371 - Logic in Computer Science </p>
+                                      </div>
+                                    </div>
+                                    <div class="container1 right">
+                                      <div class="content">
+                                        <h2>Course Details</h2>
+                                        <ul class="course-details">
+                                            <li>CSE 532: Database Systems</li>
+                                            <li>CSE 564: Data Visualization</li>
+                                            <li>CSE 548: Analysis of Algorithms</li>
+                                            <li>CSE 512: Machine Learning</li>
+                                            <li>CSE 538: Natural Language Processing</li>
+                                            <li>CSE 519: Data Science Fundamentals</li>
+                                            <li>CSE 303: Theory of Computation</li>
+                                            <li>CSE 307: Programming Languages</li>
+                                        </ul>
+                                        <h2>Activities</h2>
+                                        <ul class = "activities">
+                                            <li>
+                                                Graduate Researcher of <strong>Ethos Lab</strong>  under Professor <a href="https://amir.rahmati.com/" target="_blank" style="color: #3399ff">Amir Rahmati</a>
+                                            </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="container1 left">
+                                      <div class="content">
+                                        <h2>2016</h2>
+                                        <h3>West Bengal University of Technology</h3>
+                                        <p class="info">Bachelor of Technology, Electronics and Communication Engineering <span>•</span> <em class="date">August 2012 - June 2016</em></p> 
+                                        <p>CGPA: 8.86 / 10</p>
+                                      </div>
+                                    </div>
+                                    <div class="container1 right">
+                                      <div class="content">
+                                        <h2>Course Details</h2>
+                                        <ul class="course-details">
+                                            <li>Data Structures</li>
+                                            <li>Algorithms</li>
+                                            <li>Graph Theory</li>
+                                            <li>Engineering Mathematics - I and II</li>
+                                            <li>Microprocessors and Microcontrollers </li>
+                                            <li>Embedded Systems - Real Time Operating Systems</li>
+                                            <li>Database Management Systems</li>
+                                            <li>Object Oriented Programming with Java</li>
+                                            <li>Image Processing</li>
+                                            <li>C/C++</li>
+                                        </ul>
+                                        <h2>Achievements</h2>
+                                        <ul class = "achievements" style="padding-bottom: 20px;">
+                                            <li>
+                                                Secured the second position in my batch for my academic performance in the year 2016
+                                            </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                   
+                                  </div>
+                                <!-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
+		
+								<!-- </div> -->
+                                <!-- <div class="education-header">
+                                    <h3 class="text-secondary">Education Details</h3>
+                                    <p>My education details have been listed below.</p>
+                                </div> -->
+                    
+                                <!-- <div class="edu edu-1">
+                                    <h3>State University of New York at Stony Brook</h3>
+                                    <p>Master of Science in Computer and Information Sciences <span>•</span> <em class="date">August 2019 - December 2020</em></p>
+                                    <p>GPA: 3.58 / 4</p>
+                                    <p class="sc-fzplWN hRBsWH">Graduate Teaching Assistant: CSE 371 - Logic in Computer Science </p>
+                                   
+                                    <div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Relevant Coursework
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+									        <div class="panel-body">
+									            <ul class="course-details">
+                                                    <li>CSE 532: Database Systems</li>
+                                                    <li>CSE 564: Data Visualization</li>
+                                                    <li>CSE 548: Analysis of Algorithms</li>
+                                                    <li>CSE 512: Machine Learning</li>
+                                                    <li>CSE 538: Natural Language Processing</li>
+                                                    <li>CSE 519: Data Science Fundamentals</li>
+                                                    <li>CSE 303: Theory of Computation</li>
+                                                    <li>CSE 307: Programming Languages</li>
+                                                </ul>
+									        </div>
+									    </div>
+									</div>
+                                    <p class="sc-fzplWN hRBsWH">Activities: </p>
+                                    <ul class = "activities">
+                                        <li>
+                                            Graduate Researcher of <strong>Ethos Lab</strong>  under Professor <a href="https://amir.rahmati.com/" target="_blank" style="color: #3399ff">Amir Rahmati</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="edu edu-2">
+                                    <h3>West Bengal University of Technology</h3>
+                                    <p class="info">Bachelor of Technology, Electronics and Communication Engineering <span>•</span> <em class="date">August 2012 - June 2016</em></p> 
+                                    <p>CGPA: 8.86 / 10</p>
+                                   
+
+                                    <div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFour">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Relevant Coursework
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" style="height: 0px;">
+									        <div class="panel-body">
+									            <ul class="course-details">
+                                                    <li>Data Structures</li>
+                                                    <li>Algorithms</li>
+                                                    <li>Graph Theory</li>
+                                                    <li>Engineering Mathematics - I and II</li>
+                                                    <li>Microprocessors and Microcontrollers </li>
+                                                    <li>Embedded Systems - Real Time Operating Systems</li>
+                                                    <li>Database Management Systems</li>
+                                                    <li>Object Oriented Programming with Java</li>
+                                                    <li>Image Processing</li>
+                                                    <li>C/C++</li>
+                                                </ul>
+									        </div>
+									    </div>
+									</div>
+
+                                    
+                                    
+                                    
+                                    <p class="sc-fzplWN hRBsWH">Achievements: </p>
+                                    <ul class = "achievements" style="padding-bottom: 20px;">
+                                        <li>
+                                            Secured the second position in my batch for my academic performance in the year 2016
+                                        </li>
+                                    </ul> -->
+                            </div>
+                        </section>
+                    </div>
+
+                    <div id="job-div" class="displaySection">
+                        <section id="experience-info" data-section="experience">
+                            <div id="experience">
+                                <h6>EXPERIENCE</h6>
+                                <h5>WORK EXPERIENCE</h5>
+                                <div class="job job-1">
+                                    <h4>Tata Consultancy Services</h4>
+                                    <h6>April 2018 - July 2019</h6>
+                                    <h3>Systems Engineer, Senior Developer</h3>
+                                    <p>Responsibilities:</p>
+
+                                    <div class="row">
+                                        <div class="col-md-7 col-sm-6">
+                                            <p style="text-align: justify;">CITI Bank - Personal Loan Lending Platform Development Project: Full-stack development of Personal Loan feature from scratch using Java with Micro-services architecture, Spring boot, MySQL and Angular, reducing manual application process by 85%.</p>
+                                        </div>
+                                        <div class="col-md-5 col-sm-6">    
+                                            <a href="#!">
+                                                <img src="img/projects/bank.jpg" alt="Project1" class="work-icon" style="margin-bottom: 40px;">
+                                            </a> 
+                                        </div>  
+                                        <div class="col-md-7 col-sm-6">
+                                            <p style="text-align: justify;">Internal Project: Utility portal creation having a birthday tracker notifier and a blood donation tracker for sending notifications to colleagues from scratch using Angular 4 and Micro-services</p>
+                                        </div>
+                                        <div class="col-md-5 col-sm-6">    
+                                            <a href="#!">
+                                                <img src="img/projects/intproj.jpg" alt="Project1" class="work-icon" style="margin-bottom: 40px;">
+                                            </a> 
+                                        </div>  
+                                        <div class="col-md-7 col-sm-6">
+                                            <p style="text-align: justify;">Order and Service Management Development Project: Developed a middle-ware system for an international telecommunication client, with an improvement of above 90% in customer order fulfillment created in a CRM system.</p>
+                                        </div>
+                                        <div class="col-md-5 col-sm-6">    
+                                            <a href="#!">
+                                                <img src="img/projects/osm.jpg" alt="Project1" class="work-icon" style="margin-bottom: 40px;">
+                                            </a> 
+                                        </div>
+                                        <div class="col-md-7 col-sm-6">
+                                            <p style="text-align: justify;">Project Maintenance: Provided optimal solutions to priority one critical issues in production with an efficiency of 95%. Monitoring of defects, incident tracking, analysing all the issues and providing fixes.</p>
+                                        </div>
+                                        <div class="col-md-5 col-sm-6">    
+                                            <a href="#!">
+                                                <img src="img/projects/bank.jpg" alt="Project1" class="work-icon" style="margin-bottom: 40px;">
+                                            </a> 
+                                        </div>                                     
+                                    </div>
+                                    
+                                <!-- </div> -->
+                    
+                                <!-- <div class="job job-2"> -->
+                                    <!-- <h3>Assistant Systems Engineer</h3> -->
+                                    <!-- <h4>Tata Consultancy Services</h4> -->
+                                    <!-- <h6>July 2017 - March 2018</h6> -->
+                                    <!-- <p>Responsibilities:</p> -->
+                                    <!-- <p>Order and Service Management Development Project: Developed a middle-ware system for an international telecommunication client, with an improvement of above 90% in customer order fulfillment created in a CRM system.</p> -->
+                                <!-- </div> -->
+                    
+                                <!-- <div class="job job-3"> -->
+                                    <!-- <h3>Assistant Systems Engineer - Trainee</h3> -->
+                                    <!-- <h4>Tata Consultancy Services</h4> -->
+                                    <!-- <h6>July 2016 - June 2017</h6> -->
+                                    <!-- <p>Responsibilities:</p> -->
+                                    <!-- <p>Project Maintenance: Provided optimal solutions to priority one critical issues in production with an efficiency of 95%. Monitoring of defects, incident tracking, analysing all the issues and providing fixes.</p> -->
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div id="portfolio-div" class="displaySection" style="">
+                        <section class="portfolio-info" data-section="portfolio">
+                            <h6>MY WORK</h6>
+                            <h5>RECENT WORK</h5>
+                            <div class="projects">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6">
+                                        <a href="#!">
+                                            <img src="img/projects/dbproject1.jpg" alt="Project1" class="project-icon">
+                                        </a>
+                                        <a href="#" class="btn-light">
+                                            <i class="fa fa-eye"></i> Project
+                                        </a>
+                                        <a href="#" class="btn-dark">
+                                            <i class="fa fa-github"></i> Github
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <a href="#!">
+                                        <img src="img/projects/vizimage1.jpg" alt="Project" class="project-icon">
+                                        </a>
+                                        <a href="#" class="btn-light">
+                                            <i class="fa fa-eye"></i> Project
+                                        </a>
+                                        <a href="#" class="btn-dark">
+                                            <i class="fa fa-github"></i> Github
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <a href="#!">
+                                        <img src="img/projects/vizimage2.jpg" alt="Project" class="project-icon">
+                                        </a>
+                                        <a href="#" class="btn-light">
+                                            <i class="fa fa-eye"></i> Project
+                                        </a>
+                                        <a href="#" class="btn-dark">
+                                            <i class="fa fa-github"></i> Github
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <a href="#!">
+                                        <img src="img/projects/vizimage3.jpg" alt="Project" class="project-icon">
+                                        </a>
+                                        <a href="#" class="btn-light">
+                                            <i class="fa fa-eye"></i> Project
+                                        </a>
+                                        <a href="#" class="btn-dark">
+                                            <i class="fa fa-github"></i> Github
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <a href="#!">
+                                        <img src="img/projects/peer-img.jpg" alt="Project" class="project-icon">
+                                        </a>
+                                        <a href="#" class="btn-light">
+                                            <i class="fa fa-eye"></i> Project
+                                        </a>
+                                        <a href="#" class="btn-dark">
+                                            <i class="fa fa-github"></i> Github
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <a href="#!">
+                                        <img src="img/projects/nlp-img1.jpg" alt="Project" class="project-icon">
+                                        </a>
+                                        <a href="#" class="btn-light">
+                                            <i class="fa fa-eye"></i> Project
+                                        </a>
+                                        <a href="#" class="btn-dark">
+                                            <i class="fa fa-github"></i> Github
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <a href="#!">
+                                        <img src="img/projects/dsf-img1.jpg" alt="Project" class="project-icon">
+                                        </a>
+                                        <a href="#" class="btn-light">
+                                            <i class="fa fa-eye"></i> Project
+                                        </a>
+                                        <a href="#" class="btn-dark">
+                                            <i class="fa fa-github"></i> Github
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <a href="#!">
+                                        <img src="img/projects/dsf-chess.jpg" alt="Project" class="project-icon">
+                                        </a>
+                                        <a href="#" class="btn-light">
+                                            <i class="fa fa-eye"></i> Project
+                                        </a>
+                                        <a href="#" class="btn-dark">
+                                            <i class="fa fa-github"></i> Github
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <br>
+                    <div id="contact-div" class="displaySection">
+                        <section id="contact-info" data-section="contact">
+                                <div class="colorlib-narrow-content">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                            <h6 class="heading-meta">Get in Touch</h6>
+                                            <h5 class="colorlib-heading">Contact</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <!-- <div class="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                                <div class="colorlib-icon">
+                                                    <i class="icon-globe-outline"></i>
+                                                </div>
+                                                <div class="colorlib-text">
+                                                    <p><a href="#">info@domain.com</a></p>
+                                                </div>
+                                            </div> -->
+                                            <div class="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                                <div class="colorlib-icon">
+                                                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="colorlib-text">
+                                                    <p>700 Health Sciences Drive, Stony Brook, NY - 11790, US</p>
+                                                </div>
+                                            </div>
+                
+                                            <div class="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                                <div class="colorlib-icon">
+                                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="colorlib-text">
+                                                    <p><a href="tel://">+1-631-438-9690</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-md-push-1">
+                                            <div class="row">
+                                                <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
+                                                    <form action="mailto:debapriya.mukherjee@stonybrook.edu" method="post" enctype="text/plain">
+                                                        <!-- Name:<br> -->
+                                                        <input type="text" name="name" class="form-control" placeholder="Name"><br>
+                                                        <!-- E-mail:<br> -->
+                                                        <input type="text" name="mail" class="form-control" placeholder="Email"><br>
+                                                        <!-- Comment:<br> -->
+                                                        <input type="text" name="comment" id="message" cols="30" rows="7" class="form-control" placeholder="Message"><br><br>
+                                                        <input type="submit" class="btn btn-primary btn-send-message" value="Send">
+                                                        <input type="reset"  class="btn btn-primary btn-send-message" value="Reset">
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mail-error" style="text-align: center; font-style: italic; margin-top: 2cm;">
+                                        <p>* If the mailbox server isn't responding, feel free to drop me an email : debapriya (dot) mukherjee (at) stonybrook.edu</p>
+                                    </div>
+                                </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <script>
+        $('#about-link').click(function (){
+           
+
+            $('#about-div').slideDown('slow');
+            $('html, body').animate({
+                scrollTop: $("#about-div").offset().top
+            }, 2000);
+            return false;
+        });
+        $('#skills-link').click(function (){
+            $('#skills-div').slideDown('slow');
+            $('html, body').animate({
+                scrollTop: $("#skills-div").offset().top
+            }, 2000);
+        });
+        $('#education-link').click(function (){
+            $('#education-div').slideDown('slow');
+            $('html, body').animate({
+                scrollTop: $("#education-div").offset().top
+            }, 2000);
+           
+        });
+        $('#experience-link').click(function (){
+            $('#job-div').slideDown('slow');
+            $('html, body').animate({
+                scrollTop: $("#job-div").offset().top
+            }, 2000);
+            
+        });
+        $('#portfolio-link').click(function (){
+            $('#portfolio-div').slideDown('slow');
+            $('html, body').animate({
+                scrollTop: $("#portfolio-div").offset().top
+            }, 2000);
+            
+        });
+        $('#contact-link').click(function (){
+            $('#contact-div').slideDown('slow');
+            $('html, body').animate({
+                scrollTop: $("#contact-div").offset().top
+            }, 2000);
+            
+        });
+    </script>
+</body>
+</html>
