@@ -9,12 +9,38 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Welcome to my Website</title>
+    <title>Debapriya Mukherjee</title>
 </head>
 <body>
+    <nav class="navbar navbar-inverse hidden-sm hidden-md hidden-lg" style="margin:0px 0px -20px 0px">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="image-container">
+                <img src="img/portrait1.jpg" alt="Debapriya Mukherjee" class="bio-image">
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a id="home-link" class="active" data-nav-section="home">HOME</a></li>
+                <li><a id="about-link" data-nav-section="about">ABOUT</a></li>
+                <li><a id="skills-link" data-nav-section="skills">SKILLS</a></li>
+                <li><a id="education-link" data-nav-section="education">EDUCATION</a></li>
+                <li><a id="experience-link" data-nav-section="experience">EXPERIENCE</a></li>
+                <li><a id="portfolio-link" data-nav-section="portfolio">PORTFOLIO</a></li>
+                <li><a id="contact-link" data-nav-section="contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav><br/>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3" id="nav-menu">
+            <div class="col-sm-3 col-xs-12 hidden-xs" id="nav-menu">
                 <!-- insert left div options here -->
                 <div class="image-container">
                     <img src="img/portrait1.jpg" alt="Debapriya Mukherjee" class="bio-image">
@@ -25,11 +51,11 @@
                 </div>
                 <div class="nav-options">
                     <p><a id="home-link" class="active" data-nav-section="home">HOME</a></p>
-                    <p><a id="about-link" data-nav-section="about">ABOUT</p>
-                    <p><a id="skills-link" data-nav-section="skills">SKILLS</p>
-                    <p><a id="education-link" data-nav-section="education">EDUCATION</p>
-                    <p><a id="experience-link" data-nav-section="experience">EXPERIENCE</p>
-                    <p><a id="portfolio-link" data-nav-section="portfolio">PORTFOLIO</p>
+                    <p><a id="about-link" data-nav-section="about">ABOUT</a></p>
+                    <p><a id="skills-link" data-nav-section="skills">SKILLS</a></p>
+                    <p><a id="education-link" data-nav-section="education">EDUCATION</a></p>
+                    <p><a id="experience-link" data-nav-section="experience">EXPERIENCE</a></p>
+                    <p><a id="portfolio-link" data-nav-section="portfolio">PORTFOLIO</a></p>
                     <p><a id="contact-link" data-nav-section="contact">CONTACT</a></p>
                 </div>
                 <div class="icons">
@@ -53,11 +79,11 @@
                     Copyright &copy; Debapriya Mukherjee, 2020
                 </div> 
             </div>
-            <div class="col-sm-9" style="background-color:#f6eaf0;">
+            <div class="col-sm-9 col-xs-12" style="background-color:#f6eaf0;">
                 <div class="main-body">
                     <div id="home-div"> 
                         <section id="home-info" data-section="home">
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -110px;">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin:0px -15px -20px -15px">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -70,7 +96,7 @@
                                     <div class="item active">
                                         <img src="img/background-images/img1.jpg" alt="New York" style="width:100%; height: 960px; opacity: 0.8;">
                                         <div class="carousel-caption">
-                                            <div class="home-content">
+                                            <div class="home-content" style="padding: 80px 80px 80px 80px;">
                                                 <h6 style="color: whitesmoke; font-size: 45px; text-transform: capitalize; text-shadow: black; margin-bottom: 50px;"><strong>Hi, I'm Debapriya</strong><h6> <br>
                                                 <h6 style="color: whitesmoke; font-size: large; text-transform: capitalize; margin-bottom: 50px;"><strong>Graduate Student, Computer and Information Sciences</strong></h6>
                                                 <h6 style="color: whitesmoke; font-size: x-large; text-transform: capitalize; margin-bottom: 50px;"><strong>The State University of New York, Stony Brook (Graduation - Fall 2020)</strong></h6>
@@ -83,16 +109,14 @@
                                     <div class="item">
                                         <img src="img/background-images/img7.jpg" alt="New York" style="width:100%; height: 960px; opacity: 0.9;">
                                         <div class="carousel-caption">
-                                            <div class="home-content">
-                                                <h6 style="color: white; font-size: large; text-transform: capitalize; text-shadow: black !important; margin-bottom: 200px;"><strong>Web Developer and Programmer, Software Engineer and Data science enthusiast</strong></h6>
+                                            <div class="home-content" style="padding: 80px 80px 80px 80px;">
+                                                <h6 style="color: white; font-size: large; text-transform: capitalize; text-shadow: black !important; margin-bottom: 140px;"><strong>Web Developer and Programmer, Software Engineer and Data science enthusiast</strong></h6>
                                             </div>
                                             <!-- <h3>New York</h3> -->
                                             <!-- <p>We love the Big Apple!</p> -->
                                         </div>
                                     </div>
-                            
                                 </div>
-            
                                 <!-- Left and right controls -->
                                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                                     <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
@@ -103,12 +127,6 @@
                                     <!-- <span class="sr-only">Next</span> -->
                                 </a>
                             </div>
-                            <!-- <div class="home-content">
-                                <h1>Hi, I am Debapriya!</h1>
-                                <h4> Web Developer and Programmer, Software Engineer and Data science enthusiast </h4>
-                                <h4>December 2020 Graduation</h4>
-                                <h4>Seeking Full-Time Software Development Engineering Opportunities starting January 2021</h4>
-                            </div> -->
                         </section>
                     </div>
                     <div id="about-div" class="displaySection">
@@ -134,13 +152,13 @@
                                     </div>
                                 </div>
                                 <br>
-                                <div class="features">
-                                <div class="features-content" style="background: #404040; padding: 60px 70px 100px 17px;">
+                                <div class="features" style="margin:0px -15px -20px -15px">
+                                <div class="features-content" style="background: #404040; padding: 60px 17px 60px 17px;">
                                     <h6 style="font-weight: 400; font-size: 16px;"><b>WHAT I AM GOOD AT</b></h6>
                                     <!-- <h5>EXPERTISE</h5> -->
                                     <br>
                                     <div class="row">
-                                        <div class="col-md-4 col-sm-6 text-center">
+                                        <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 30px;">
                                             <span class="fa-stack fa-lg fa-5x">
                                                 <i class="fa fa-circle fa-stack-2x" style="color: white !important;"></i>
                                                 <i class="fa fa-cubes fa-stack-1x fa-inverse" style="color: #404040 !important;"></i>
@@ -148,7 +166,7 @@
                                             <span style="color: #999999 !important; font-size: 24px;">Full Stack Development</span>
                                             <br>
                                         </div>
-                                        <div class="col-md-4 col-sm-6 text-center">
+                                        <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 30px;">
                                             <span class="fa-stack fa-lg fa-5x">
                                                 <i class="fa fa-circle fa-stack-2x" style="color: white !important;"></i>
                                                 <i class="fa fa-magic fa-stack-1x fa-inverse" style="color: #404040 !important;"></i>
@@ -156,7 +174,7 @@
                                             <span style="color: #999999 !important; font-size: 24px">Web Design</span>
                                             <br>
                                         </div>
-                                        <div class="col-md-4 col-sm-6 text-center">
+                                        <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 30px;">
                                             <span class="fa-stack fa-lg fa-5x">
                                                 <i class="fa fa-circle fa-stack-2x" style="color: white !important;"></i>
                                                 <i class="fa fa-cog fa-stack-1x fa-inverse" style="color: #404040 !important;"></i>
@@ -178,38 +196,6 @@
                                 <!-- <h2 class="text-secondary"><u>Skills</u></h2> -->
                                 <div class="bars">
                                     <ul class="skills">
-                                        <!-- <div class="row">
-                                            <h4><strong>Languages:</strong></h4>
-                                            <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                                <div class="progress-wrap">
-                                                    <p>Java</p>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                                            <span>90%</span>
-                                                        </div>
-                                                    </div>
-                                                    <p>Python</p>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                                            <span>90%</span>
-                                                        </div>
-                                                    </div>
-                                                    <p>HTML</p>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                                            <span>90%</span>
-                                                        </div>
-                                                    </div>
-                                                    <p>CSS</p>
-                                                    <div class="progress">
-                                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                                            <span>90%</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                        
                                         <div class="row" style="margin-top: 100px;">
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="progress blue">
@@ -290,15 +276,6 @@
                                                 <div style="margin-top: 10px; text-align: center; padding-bottom: 80px ;"><h6 style="text-transform: lowercase;"><strong>3 years professional experience</strong></h6></div>
                                             </div>
                                         </div>
-                                       
-                                        
-                                        <!-- <h4><strong>Languages:</strong></h4> <p> Java, Python, XQuery and XPath</p>
-                                        <h4><strong> Web Development:</strong></h4> <p>HTML, CSS, Angular, JavaScript</p>
-                                        <h4><strong>Technologies and Frameworks:</strong></h4> <p>Micro-services, Spring Framework/Spring Boot, JPA, REST, Web Services/API, Hadoop, Apache Spark, Tensorflow, D3.js, CSS, Tomcat, XML, JSON, SOAP, JIRA, Jenkins, JUnit</p>
-                                        <h4><strong>Databases:</strong></h4> <p> MS SQL Server, MySQL, IBM DB2</p>
-                                        <h4><strong>Operating Systems:</strong></h4> <p>Linux, Windows, MacOS</p>
-                                        <h4><strong>Tools:</strong></h4> <p> Selenium, Scrapy, Git</p>
-                                        <h4><strong>Platforms:</strong></h4> <p>Hortonworks Data Platform (HDP) Sandbox, Cloudera, VirtualBox, Oxygen XML Editor</p> -->
                                     </ul>
                                 </div>
                             </div>
@@ -397,91 +374,7 @@
                                             <p><b>Percentage scored: </b>90%</p>
                                         </div>
                                     </div> -->
-                                   
                                 </div>
-                                <!-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
-		
-								<!-- </div> -->
-                                <!-- <div class="education-header">
-                                    <h3 class="text-secondary">Education Details</h3>
-                                    <p>My education details have been listed below.</p>
-                                </div> -->
-                    
-                                <!-- <div class="edu edu-1">
-                                    <h3>State University of New York at Stony Brook</h3>
-                                    <p>Master of Science in Computer and Information Sciences <span>•</span> <em class="date">August 2019 - December 2020</em></p>
-                                    <p>GPA: 3.58 / 4</p>
-                                    <p class="sc-fzplWN hRBsWH">Graduate Teaching Assistant: CSE 371 - Logic in Computer Science </p>
-                                   
-                                    <div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Relevant Coursework
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
-									        <div class="panel-body">
-									            <ul class="course-details">
-                                                    <li>CSE 532: Database Systems</li>
-                                                    <li>CSE 564: Data Visualization</li>
-                                                    <li>CSE 548: Analysis of Algorithms</li>
-                                                    <li>CSE 512: Machine Learning</li>
-                                                    <li>CSE 538: Natural Language Processing</li>
-                                                    <li>CSE 519: Data Science Fundamentals</li>
-                                                    <li>CSE 303: Theory of Computation</li>
-                                                    <li>CSE 307: Programming Languages</li>
-                                                </ul>
-									        </div>
-									    </div>
-									</div>
-                                    <p class="sc-fzplWN hRBsWH">Activities: </p>
-                                    <ul class = "activities">
-                                        <li>
-                                            Graduate Researcher of <strong>Ethos Lab</strong>  under Professor <a href="https://amir.rahmati.com/" target="_blank" style="color: #3399ff">Amir Rahmati</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="edu edu-2">
-                                    <h3>West Bengal University of Technology</h3>
-                                    <p class="info">Bachelor of Technology, Electronics and Communication Engineering <span>•</span> <em class="date">August 2012 - June 2016</em></p> 
-                                    <p>CGPA: 8.86 / 10</p>
-                                   
-
-                                    <div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Relevant Coursework
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" style="height: 0px;">
-									        <div class="panel-body">
-									            <ul class="course-details">
-                                                    <li>Data Structures</li>
-                                                    <li>Algorithms</li>
-                                                    <li>Graph Theory</li>
-                                                    <li>Engineering Mathematics - I and II</li>
-                                                    <li>Microprocessors and Microcontrollers </li>
-                                                    <li>Embedded Systems - Real Time Operating Systems</li>
-                                                    <li>Database Management Systems</li>
-                                                    <li>Object Oriented Programming with Java</li>
-                                                    <li>Image Processing</li>
-                                                    <li>C/C++</li>
-                                                </ul>
-									        </div>
-									    </div>
-									</div>
-
-                                    
-                                    
-                                    
-                                    <p class="sc-fzplWN hRBsWH">Achievements: </p>
-                                    <ul class = "achievements" style="padding-bottom: 20px;">
-                                        <li>
-                                            Secured the second position in my batch for my academic performance in the year 2016
-                                        </li>
-                                    </ul> -->
                             </div>
                         </section>
                     </div>
@@ -497,60 +390,44 @@
                                     <h4 style="font-size: 20px;">Systems Engineer, Senior Developer</h4>
                                     <h3 style="text-transform: capitalize;"><b>Responsibilities:</b></h3>
                                     <div class="row">
-                                        <div class="col-md-7 col-sm-6">
+                                        <div class="col-md-8 col-sm-6">
                                             <p><b>CITI Bank - Personal Loan Lending Platform Development Project:</b></p> <p style="text-align: justify;">Full-stack development of Personal Loan feature from scratch using Java with Micro-services architecture, Spring boot, MySQL and Angular, reducing manual application process by 85%.</p>
                                         </div>
-                                        <div class="col-md-5 col-sm-6">    
+                                        <div class="col-md-4 col-sm-6">    
                                             <a href="#!">
                                                 <img src="img/projects/bank.jpg" alt="Project1" class="work-icon" style="margin-bottom: 40px;">
                                             </a> 
                                         </div>  
-                                        <div class="col-md-7 col-sm-6">
+                                        <div class="col-md-8 col-sm-6">
                                             <p><b>Internal Project:</b></p> <p style="text-align: justify;">Utility portal creation having a birthday tracker notifier and a blood donation tracker for sending notifications to colleagues from scratch using Angular 4 and Micro-services.</p>
                                         </div>
-                                        <div class="col-md-5 col-sm-6">    
+                                        <div class="col-md-4 col-sm-6">    
                                             <a href="#!">
                                                 <img src="img/projects/intproj.jpg" alt="Project1" class="work-icon" style="margin-bottom: 40px;">
                                             </a> 
                                         </div>  
-                                        <div class="col-md-7 col-sm-6">
+                                        <div class="col-md-8 col-sm-6">
                                             <p><b>Order and Service Management Development Project:</b></p> <p style="text-align: justify;">Developed a middle-ware system for an international telecommunication client, with an improvement of above 90% in customer order fulfillment created in a CRM system.<//p>
                                         </div>
-                                        <div class="col-md-5 col-sm-6">    
+                                        <div class="col-md-4 col-sm-6">    
                                             <a href="#!">
                                                 <img src="img/projects/osm.jpg" alt="Project1" class="work-icon" style="margin-bottom: 40px;">
                                             </a> 
                                         </div>
-                                        <div class="col-md-7 col-sm-6">
+                                        <div class="col-md-8 col-sm-6">
                                             <p><b>Project Maintenance:</b></p> <p style="text-align: justify;">Provided optimal solutions to priority one critical issues in production with an efficiency of 95%. Monitoring of defects, incident tracking, analysing all the issues and providing fixes.</p>
                                         </div>
-                                        <div class="col-md-5 col-sm-6">    
+                                        <div class="col-md-4 col-sm-6">    
                                             <a href="#!">
                                                 <img src="img/projects/maintimg.jpg" alt="Project1" class="work-icon" style="margin-bottom: 40px;">
                                             </a> 
                                         </div>                                     
                                     </div>
-                                    
-                                <!-- </div> -->
-                    
-                                <!-- <div class="job job-2"> -->
-                                    <!-- <h3>Assistant Systems Engineer</h3> -->
-                                    <!-- <h4>Tata Consultancy Services</h4> -->
-                                    <!-- <h6>July 2017 - March 2018</h6> -->
-                                    <!-- <p>Responsibilities:</p> -->
-                                    <!-- <p>Order and Service Management Development Project: Developed a middle-ware system for an international telecommunication client, with an improvement of above 90% in customer order fulfillment created in a CRM system.</p> -->
-                                <!-- </div> -->
-                    
-                                <!-- <div class="job job-3"> -->
-                                    <!-- <h3>Assistant Systems Engineer - Trainee</h3> -->
-                                    <!-- <h4>Tata Consultancy Services</h4> -->
-                                    <!-- <h6>July 2016 - June 2017</h6> -->
-                                    <!-- <p>Responsibilities:</p> -->
-                                    <!-- <p>Project Maintenance: Provided optimal solutions to priority one critical issues in production with an efficiency of 95%. Monitoring of defects, incident tracking, analysing all the issues and providing fixes.</p> -->
                                 </div>
                             </div>
                         </section>
                     </div>
+                    
                     <br>
                     <div id="portfolio-div" class="displaySection">
                         <section class="portfolio-info" data-section="portfolio">
@@ -717,7 +594,27 @@
             </div>
         </div> 
     </div>
-
+    <nav class="navbar navbar-inverse hidden-sm hidden-md hidden-lg" style="margin:0px 0px -20px 0px">
+        <div class="container-fluid">
+            <div class="icons">
+                <a href="mailto:debapriya.mukherjee@stonybrook.edu" target="_blank" style="padding: 3px;">
+                    <i class="fa fa-envelope fa-2x"></i>
+                </a>
+                <a href="https://www.facebook.com/debapriya.mukherjee.9/" target="_blank" style="padding: 3px;">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/debapriya-mukherjee-16b99a79/" target="_blank" style="padding: 3px;">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://github.com/Debapriya-M" target="_blank" style="padding: 3px;">
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/debapriya_mukherjee/" target="_blank" style="padding: 3px;">
+                    <i class="fa fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+      </nav><br/>
     <script>
         $('#home-link').click(function (){           
             $('#home-div').slideDown('slow');
@@ -768,5 +665,6 @@
             
         });
     </script>
+
 </body>
 </html>
