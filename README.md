@@ -1,1 +1,1 @@
-Debapriya-M.github.io
+debapriya-m.github.io
